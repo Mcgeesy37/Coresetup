@@ -2,702 +2,1442 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoreSetup Studio — Digital Systems. Built to Perform.</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>CoreSetup Studio — Digital Infrastructure</title>
+
     <meta name="description"
-          content="CoreSetup Studio entwickelt Premium-Websites, digitale Systeme und stabile Infrastruktur für Unternehmen. Webdesign, SEO, Security, Hosting und Performance aus Berlin.">
-    <meta name="theme-color" content="#08090b">
+          content="CoreSetup Studio — Premium Websites, SEO, Security, Hosting und digitale Infrastruktur für Unternehmen.">
+
+    <meta name="theme-color" content="#050609">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<!-- =========================================
-     CURSOR
-========================================= -->
-<div class="cursor"></div>
-<div class="cursor-follower"></div>
-<!-- =========================================
-     NAVIGATION
-========================================= -->
-<header class="site-header">
-    <a href="#" class="logo">
-        <span class="logo-mark">
-            <span></span>
-            <span></span>
-        </span>
-        <span class="logo-text">
+
+<!-- =====================================================
+     PRELOADER
+===================================================== -->
+
+<div class="preloader">
+
+    <div class="preloader-inner">
+
+        <div class="preloader-logo">
             CORE<span>SETUP</span>
-        </span>
-    </a>
-    <nav class="desktop-nav">
-        <a href="#services">Services</a>
-        <a href="#work">Projects</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <a href="#contact" class="nav-cta">
-        Start a project
-        <span>↗</span>
-    </a>
-    <button class="mobile-menu-btn" aria-label="Menü öffnen">
-        <span></span>
-        <span></span>
-    </button>
-</header>
-<!-- =========================================
-     MOBILE MENU
-========================================= -->
-<div class="mobile-menu">
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#work">Projects</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</div>
-<main>
-<!-- =========================================
-     HERO
-========================================= -->
-<section class="hero">
-    <div class="hero-grid"></div>
-    <div class="hero-top">
-        <span class="eyebrow">
-            DIGITAL SYSTEMS / BERLIN / 2026
-        </span>
-        <span class="hero-index">
-            01 — 05
-        </span>
-    </div>
-    <div class="hero-content">
-        <div class="hero-small">
-            Premium digital infrastructure
         </div>
+
+        <div class="loader-line">
+            <span></span>
+        </div>
+
+        <div class="loader-meta">
+            <span>INITIALIZING SYSTEM</span>
+            <span class="loader-percent">00%</span>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     CURSOR
+===================================================== -->
+
+<div class="cursor"></div>
+<div class="cursor-ring"></div>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="header">
+
+    <a href="#top" class="brand">
+
+        <div class="brand-symbol">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="brand-name">
+            CORE<span>SETUP</span>
+        </div>
+
+    </a>
+
+
+    <nav class="desktop-nav">
+
+        <a href="#services">Services</a>
+        <a href="#work">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <a href="#contact" class="header-cta">
+
+        <span>Start a project</span>
+
+        <i>↗</i>
+
+    </a>
+
+
+    <button class="menu-toggle"
+            aria-label="Menu">
+
+        <span></span>
+        <span></span>
+
+    </button>
+
+</header>
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div class="mobile-menu">
+
+    <div class="mobile-menu-bg"></div>
+
+    <nav>
+
+        <a href="#services">01 / Services</a>
+        <a href="#work">02 / Projects</a>
+        <a href="#process">03 / Process</a>
+        <a href="#contact">04 / Contact</a>
+
+    </nav>
+
+    <div class="mobile-footer">
+        BERLIN / GERMANY
+    </div>
+
+</div>
+
+
+<main id="top">
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+    <div class="hero-noise"></div>
+
+    <div class="hero-grid"></div>
+
+
+    <!-- atmospheric glow -->
+
+    <div class="hero-glow glow-one"></div>
+    <div class="hero-glow glow-two"></div>
+
+
+    <!-- top metadata -->
+
+    <div class="hero-meta">
+
+        <div>
+            <span class="status-dot"></span>
+            SYSTEM ONLINE
+        </div>
+
+        <div>
+            DIGITAL INFRASTRUCTURE / 2026
+        </div>
+
+    </div>
+
+
+    <!-- 3D WORLD -->
+
+    <div class="globe-container">
+
+        <canvas id="globe"></canvas>
+
+
+        <div class="globe-label label-top">
+            GLOBAL
+            <span>NETWORK</span>
+        </div>
+
+        <div class="globe-label label-bottom">
+            52.5200° N
+            <span>13.4050° E</span>
+        </div>
+
+
+        <div class="globe-orbit orbit-one"></div>
+        <div class="globe-orbit orbit-two"></div>
+
+    </div>
+
+
+    <!-- hero content -->
+
+    <div class="hero-content">
+
+        <div class="hero-kicker">
+            DIGITAL SYSTEMS / BERLIN
+        </div>
+
+
         <h1>
-            Digital
-            <span>systems</span>
-            built to
-            <span>perform.</span>
+
+            Build
+            <span>digital</span>
+
+            systems
+
+            <small>
+                that move
+                <i>business.</i>
+            </small>
+
         </h1>
-        <p>
-            CoreSetup Studio creates premium websites,
-            digital experiences and reliable infrastructure
-            for companies that want to move ahead.
+
+
+        <p class="hero-description">
+
+            CoreSetup Studio combines premium web design,
+            technology, security, SEO and infrastructure
+            into one digital ecosystem.
+
         </p>
+
+
         <div class="hero-actions">
-            <a href="#contact" class="button button-primary">
-                Start a project
-                <span>↗</span>
+
+            <a href="#contact"
+               class="magnetic-button primary">
+
+                <span>
+                    Start a project
+                </span>
+
+                <b>↗</b>
+
             </a>
-            <a href="#work" class="button button-ghost">
+
+
+            <a href="#work"
+               class="text-button">
+
                 Explore our work
                 <span>↓</span>
+
             </a>
+
         </div>
+
     </div>
+
+
+    <!-- floating information -->
+
+    <div class="hero-card card-performance">
+
+        <div class="card-top">
+            PERFORMANCE
+            <span>LIVE</span>
+        </div>
+
+        <strong>
+            98<span>/100</span>
+        </strong>
+
+        <div class="mini-bars">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+
+    </div>
+
+
+    <div class="hero-card card-location">
+
+        <div class="location-line"></div>
+
+        <div>
+            <span>CORESETUP HQ</span>
+            <strong>BERLIN / DE</strong>
+        </div>
+
+    </div>
+
+
+    <!-- bottom -->
+
     <div class="hero-bottom">
-        <div>
-            <span>SCROLL TO EXPLORE</span>
-        </div>
-        <div class="hero-line"></div>
-        <div>
-            <span>WEBSITE / SEO / SECURITY / HOSTING</span>
-        </div>
-    </div>
-</section>
-<!-- =========================================
-     INTRO
-========================================= -->
-<section class="intro section">
-    <div class="section-number">
-        01
-    </div>
-    <div class="intro-content">
-        <span class="eyebrow">
-            WHAT WE DO
-        </span>
-        <h2>
-            We don't just build
-            <em>websites.</em>
-            We build digital foundations.
-        </h2>
-        <div class="intro-bottom">
-            <p>
-                Your website is often the first interaction a customer
-                has with your company. We make sure that interaction
-                feels premium, performs fast and creates trust.
-            </p>
-            <p>
-                From strategy and design to development, SEO,
-                security and hosting — CoreSetup connects the
-                entire digital stack.
-            </p>
-        </div>
-    </div>
-</section>
-<!-- =========================================
-     MARQUEE
-========================================= -->
-<section class="marquee">
-    <div class="marquee-track">
-        <span>WEB DESIGN</span>
-        <span>✦</span>
-        <span>SEO</span>
-        <span>✦</span>
-        <span>SECURITY</span>
-        <span>✦</span>
-        <span>HOSTING</span>
-        <span>✦</span>
-        <span>PERFORMANCE</span>
-        <span>✦</span>
-        <span>WEB DESIGN</span>
-        <span>✦</span>
-        <span>SEO</span>
-        <span>✦</span>
-        <span>SECURITY</span>
-        <span>✦</span>
-        <span>HOSTING</span>
-        <span>✦</span>
-        <span>PERFORMANCE</span>
-    </div>
-</section>
-<!-- =========================================
-     SERVICES
-========================================= -->
-<section id="services" class="services section">
-    <div class="section-heading">
-        <div class="section-number">
-            02
-        </div>
-        <div>
-            <span class="eyebrow">
-                CAPABILITIES
+
+        <div class="scroll-indicator">
+
+            <span class="scroll-line"></span>
+
+            <span>
+                SCROLL TO EXPLORE
             </span>
-            <h2>
-                Everything your
-                digital presence needs.
-            </h2>
+
         </div>
+
+
+        <div class="hero-services">
+
+            WEB
+            <span>•</span>
+            SEO
+            <span>•</span>
+            SECURITY
+            <span>•</span>
+            INFRASTRUCTURE
+
+        </div>
+
     </div>
-    <div class="services-list">
-        <article class="service">
-            <div class="service-number">
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+===================================================== -->
+
+<section class="intro section reveal-section">
+
+    <div class="section-tag">
+        <span>01</span>
+        CORESETUP
+    </div>
+
+
+    <div class="intro-main">
+
+        <div class="intro-title">
+
+            <span class="eyebrow">
+                DIGITAL FOUNDATION
+            </span>
+
+            <h2>
+                Your digital presence
+                should feel like a
+                <em>system.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="intro-copy">
+
+            <p class="large-copy">
+
+                Not just another website.
+                Not another template.
+
+            </p>
+
+            <p>
+
+                CoreSetup builds digital environments
+                where design, performance, visibility,
+                security and infrastructure work together.
+
+            </p>
+
+            <a href="#services"
+               class="line-link">
+
+                Explore capabilities
+                <span>↗</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<section class="marquee">
+
+    <div class="marquee-track">
+
+        <span>WEB DEVELOPMENT</span>
+        <i>✦</i>
+
+        <span>SEO / GEO</span>
+        <i>✦</i>
+
+        <span>CYBER SECURITY</span>
+        <i>✦</i>
+
+        <span>HOSTING</span>
+        <i>✦</i>
+
+        <span>PERFORMANCE</span>
+        <i>✦</i>
+
+        <span>DIGITAL SYSTEMS</span>
+        <i>✦</i>
+
+        <span>WEB DEVELOPMENT</span>
+        <i>✦</i>
+
+        <span>SEO / GEO</span>
+        <i>✦</i>
+
+        <span>CYBER SECURITY</span>
+        <i>✦</i>
+
+        <span>HOSTING</span>
+        <i>✦</i>
+
+        <span>PERFORMANCE</span>
+        <i>✦</i>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section id="services"
+         class="services section reveal-section">
+
+    <div class="section-header">
+
+        <div class="section-tag">
+            <span>02</span>
+            CAPABILITIES
+        </div>
+
+        <div class="section-header-content">
+
+            <span class="eyebrow">
+                WHAT WE BUILD
+            </span>
+
+            <h2>
+                One system.
+                <br>
+                Multiple layers.
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="services-stack">
+
+
+        <article class="service-card">
+
+            <div class="service-index">
                 01
             </div>
-            <div class="service-main">
+
+            <div class="service-icon">
+                ◇
+            </div>
+
+            <div class="service-content">
+
+                <span>
+                    DIGITAL EXPERIENCE
+                </span>
+
                 <h3>
-                    Website Development
+                    Web Development
                 </h3>
+
                 <p>
-                    Premium websites designed around your brand,
-                    your customers and your business goals.
+                    Premium websites and digital experiences
+                    designed around your brand, customers
+                    and business objectives.
                 </p>
+
             </div>
-            <div class="service-details">
+
+            <div class="service-tags">
+
                 <span>UI / UX</span>
-                <span>Development</span>
-                <span>Mobile First</span>
+                <span>Frontend</span>
+                <span>CMS</span>
                 <span>Conversion</span>
+
             </div>
+
             <div class="service-arrow">
                 ↗
             </div>
+
         </article>
-        <article class="service">
-            <div class="service-number">
+
+
+        <article class="service-card">
+
+            <div class="service-index">
                 02
             </div>
-            <div class="service-main">
-                <h3>
-                    SEO & Visibility
-                </h3>
-                <p>
-                    Technical SEO, structured content and local
-                    visibility designed to make your business easier
-                    to find.
-                </p>
+
+            <div class="service-icon">
+                ◌
             </div>
-            <div class="service-details">
+
+            <div class="service-content">
+
+                <span>
+                    VISIBILITY
+                </span>
+
+                <h3>
+                    SEO & GEO
+                </h3>
+
+                <p>
+                    Technical SEO, structured data and local
+                    optimization designed to make your company
+                    visible where customers search.
+                </p>
+
+            </div>
+
+            <div class="service-tags">
+
                 <span>Technical SEO</span>
-                <span>Local SEO</span>
+                <span>Local</span>
                 <span>GEO</span>
                 <span>Schema</span>
+
             </div>
+
             <div class="service-arrow">
                 ↗
             </div>
+
         </article>
-        <article class="service">
-            <div class="service-number">
+
+
+        <article class="service-card">
+
+            <div class="service-index">
                 03
             </div>
-            <div class="service-main">
+
+            <div class="service-icon">
+                ⌁
+            </div>
+
+            <div class="service-content">
+
+                <span>
+                    DEFENSE
+                </span>
+
                 <h3>
-                    Security & Hardening
+                    Security
                 </h3>
+
                 <p>
-                    A stronger technical foundation with HTTPS,
-                    security headers, access controls and
-                    defensive configurations.
+                    Security hardening, headers, access controls
+                    and defensive configuration for a stronger
+                    technical foundation.
                 </p>
+
             </div>
-            <div class="service-details">
+
+            <div class="service-tags">
+
                 <span>Hardening</span>
+                <span>HTTPS</span>
                 <span>Headers</span>
-                <span>WAF</span>
                 <span>Monitoring</span>
+
             </div>
+
             <div class="service-arrow">
                 ↗
             </div>
+
         </article>
-        <article class="service">
-            <div class="service-number">
+
+
+        <article class="service-card">
+
+            <div class="service-index">
                 04
             </div>
-            <div class="service-main">
+
+            <div class="service-icon">
+                ⬡
+            </div>
+
+            <div class="service-content">
+
+                <span>
+                    INFRASTRUCTURE
+                </span>
+
                 <h3>
-                    Hosting & Infrastructure
+                    Hosting & Systems
                 </h3>
+
                 <p>
                     Reliable hosting, backups, monitoring and
-                    technical maintenance so your website stays
-                    available.
+                    technical maintenance for infrastructure
+                    that stays online.
                 </p>
+
             </div>
-            <div class="service-details">
+
+            <div class="service-tags">
+
                 <span>Hosting</span>
                 <span>Backups</span>
-                <span>Monitoring</span>
-                <span>Maintenance</span>
+                <span>Nginx</span>
+                <span>Linux</span>
+
             </div>
+
             <div class="service-arrow">
                 ↗
             </div>
+
         </article>
-        <article class="service">
-            <div class="service-number">
+
+
+        <article class="service-card">
+
+            <div class="service-index">
                 05
             </div>
-            <div class="service-main">
+
+            <div class="service-icon">
+                ◈
+            </div>
+
+            <div class="service-content">
+
+                <span>
+                    OPTIMIZATION
+                </span>
+
                 <h3>
                     Performance
                 </h3>
+
                 <p>
-                    Faster websites, cleaner code and optimized
-                    infrastructure focused on Core Web Vitals.
+                    Faster load times, optimized assets, cleaner
+                    code and Core Web Vitals focused on real
+                    user experience.
                 </p>
+
             </div>
-            <div class="service-details">
+
+            <div class="service-tags">
+
+                <span>Speed</span>
                 <span>Core Web Vitals</span>
                 <span>Optimization</span>
-                <span>Speed</span>
-                <span>Stability</span>
+
             </div>
+
             <div class="service-arrow">
                 ↗
             </div>
+
         </article>
+
+
     </div>
+
 </section>
-<!-- =========================================
-     STATEMENT
-========================================= -->
-<section class="statement">
-    <div class="statement-background"></div>
-    <div class="statement-inner">
+
+
+<!-- =====================================================
+     DIGITAL CORE
+===================================================== -->
+
+<section class="core-section">
+
+    <div class="core-bg"></div>
+
+    <div class="core-grid"></div>
+
+
+    <div class="core-content">
+
         <span class="eyebrow">
-            THE CORESETUP APPROACH
+            THE CORESETUP METHOD
         </span>
+
         <h2>
-            Design gets
-            attention.
-            <br>
+
+            Design is the
+            <span>interface.</span>
+
             Infrastructure
-            keeps it.
+            is the
+            <span>core.</span>
+
         </h2>
+
         <p>
-            Beautiful interfaces are only the beginning.
-            We combine design, performance, SEO and infrastructure
-            into one coherent system.
+
+            We connect the visible layer of your business
+            with the technical systems underneath it.
+
         </p>
+
     </div>
+
+
+    <div class="core-visual">
+
+        <div class="core-orb">
+
+            <div class="core-ring ring-a"></div>
+            <div class="core-ring ring-b"></div>
+            <div class="core-ring ring-c"></div>
+
+            <div class="core-center">
+                CORE
+            </div>
+
+        </div>
+
+
+        <div class="core-node node-a">
+            WEB
+        </div>
+
+        <div class="core-node node-b">
+            SEO
+        </div>
+
+        <div class="core-node node-c">
+            SECURITY
+        </div>
+
+        <div class="core-node node-d">
+            HOSTING
+        </div>
+
+    </div>
+
 </section>
-<!-- =========================================
+
+
+<!-- =====================================================
      STATS
-========================================= -->
+===================================================== -->
+
 <section class="stats section">
-    <div class="stat">
-        <strong>
-            100%
+
+    <div class="stat-item">
+
+        <strong data-count="100">
+            0
         </strong>
+
         <span>
-            Custom digital systems
+            CUSTOM SYSTEMS
         </span>
+
     </div>
-    <div class="stat">
-        <strong>
-            24/7
+
+
+    <div class="stat-item">
+
+        <strong data-count="98">
+            0
         </strong>
+
         <span>
-            Monitoring available
+            PERFORMANCE TARGET
         </span>
+
     </div>
-    <div class="stat">
-        <strong>
-            01
+
+
+    <div class="stat-item">
+
+        <strong data-count="24">
+            0
         </strong>
+
         <span>
-            Dedicated digital partner
+            / 7 MONITORING
         </span>
+
     </div>
-    <div class="stat">
+
+
+    <div class="stat-item">
+
         <strong>
             ∞
         </strong>
+
         <span>
-            Possibilities
+            POSSIBILITIES
         </span>
+
     </div>
+
 </section>
-<!-- =========================================
+
+
+<!-- =====================================================
      WORK
-========================================= -->
-<section id="work" class="work section">
-    <div class="section-heading">
-        <div class="section-number">
-            03
+===================================================== -->
+
+<section id="work"
+         class="work section reveal-section">
+
+    <div class="section-header">
+
+        <div class="section-tag">
+            <span>03</span>
+            SELECTED WORK
         </div>
-        <div>
+
+        <div class="section-header-content">
+
             <span class="eyebrow">
-                SELECTED WORK
+                DIGITAL PROJECTS
             </span>
+
             <h2>
-                Digital experiences
-                with a purpose.
+                Built to make
+                an impression.
             </h2>
+
         </div>
+
     </div>
-    <div class="projects">
-        <article class="project project-large">
-            <div class="project-visual visual-one">
-                <div class="browser-window">
-                    <div class="browser-top">
-                        <div class="browser-dots">
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                        </div>
-                        <span>
-                            coresetup.studio
-                        </span>
-                    </div>
-                    <div class="browser-content">
-                        <div class="fake-logo">
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT ONE -->
+
+        <article class="project project-wide">
+
+            <div class="project-screen">
+
+                <div class="project-interface">
+
+                    <div class="interface-nav">
+
+                        <strong>
                             CORE<span>SETUP</span>
+                        </strong>
+
+                        <div>
+                            SYSTEM
+                            <span>ONLINE</span>
                         </div>
-                        <div class="fake-title">
-                            Premium
-                            <br>
-                            Digital Systems
-                        </div>
-                        <div class="fake-line"></div>
+
                     </div>
+
+
+                    <div class="interface-main">
+
+                        <span>
+                            DIGITAL INFRASTRUCTURE
+                        </span>
+
+                        <h3>
+                            Build
+                            <br>
+                            Better.
+                        </h3>
+
+                        <div class="interface-line"></div>
+
+                    </div>
+
+
+                    <div class="interface-footer">
+
+                        <span>
+                            PERFORMANCE
+                        </span>
+
+                        <span>
+                            SECURITY
+                        </span>
+
+                        <span>
+                            VISIBILITY
+                        </span>
+
+                    </div>
+
                 </div>
+
             </div>
-            <div class="project-info">
+
+
+            <div class="project-meta">
+
                 <div>
-                    <span class="project-category">
+
+                    <span>
                         DIGITAL EXPERIENCE
                     </span>
+
                     <h3>
                         CoreSetup Studio
                     </h3>
+
                 </div>
-                <span class="project-year">
+
+                <span>
                     2026 ↗
                 </span>
+
             </div>
+
         </article>
+
+
+        <!-- PROJECT TWO -->
+
         <article class="project">
-            <div class="project-visual visual-two">
-                <div class="orb"></div>
-                <div class="visual-label">
-                    PERFORMANCE
-                    <br>
-                    / 98
+
+            <div class="project-screen project-blue">
+
+                <div class="project-globe-mini">
+
+                    <div></div>
+
                 </div>
+
+                <span class="visual-data">
+                    GLOBAL / 01
+                </span>
+
             </div>
-            <div class="project-info">
+
+
+            <div class="project-meta">
+
                 <div>
-                    <span class="project-category">
-                        PERFORMANCE
+
+                    <span>
+                        INFRASTRUCTURE
                     </span>
+
                     <h3>
-                        Digital Rebuild
+                        Digital Network
                     </h3>
+
                 </div>
-                <span class="project-year">
+
+                <span>
                     2026 ↗
                 </span>
+
             </div>
+
         </article>
+
+
+        <!-- PROJECT THREE -->
+
         <article class="project">
-            <div class="project-visual visual-three">
-                <div class="security-card">
-                    <div class="security-header">
+
+            <div class="project-screen project-security">
+
+                <div class="security-ui">
+
+                    <div class="security-top">
                         SECURITY STATUS
+                        <span>ACTIVE</span>
                     </div>
-                    <div class="security-score">
+
+                    <strong>
                         98
+                    </strong>
+
+                    <div class="security-grid">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
                     </div>
-                    <div class="security-bars">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+
+                    <div class="security-bottom">
+                        THREAT LEVEL
+                        <b>LOW</b>
                     </div>
+
                 </div>
+
             </div>
-            <div class="project-info">
+
+
+            <div class="project-meta">
+
                 <div>
-                    <span class="project-category">
-                        SECURITY
+
+                    <span>
+                        CYBER SECURITY
                     </span>
+
                     <h3>
                         Infrastructure Hardening
                     </h3>
+
                 </div>
-                <span class="project-year">
+
+                <span>
                     2026 ↗
                 </span>
+
             </div>
+
         </article>
+
+
     </div>
+
 </section>
-<!-- =========================================
+
+
+<!-- =====================================================
      PROCESS
-========================================= -->
-<section id="process" class="process section">
-    <div class="section-heading">
-        <div class="section-number">
-            04
+===================================================== -->
+
+<section id="process"
+         class="process section">
+
+    <div class="section-header">
+
+        <div class="section-tag">
+            <span>04</span>
+            PROCESS
         </div>
-        <div>
+
+        <div class="section-header-content">
+
             <span class="eyebrow">
-                HOW WE WORK
+                FROM IDEA TO SYSTEM
             </span>
+
             <h2>
-                From first idea
-                to live system.
+                Simple process.
+                Serious execution.
             </h2>
+
         </div>
+
     </div>
-    <div class="process-list">
-        <div class="process-item">
-            <span>
+
+
+    <div class="process-track">
+
+
+        <article class="process-item">
+
+            <div class="process-number">
                 01
-            </span>
-            <div>
-                <h3>
-                    Discover
-                </h3>
-                <p>
-                    We understand your company, customers,
-                    goals and current digital setup.
-                </p>
             </div>
-        </div>
-        <div class="process-item">
-            <span>
+
+            <div class="process-body">
+
+                <span>
+                    DISCOVER
+                </span>
+
+                <h3>
+                    Understand
+                    the system.
+                </h3>
+
+                <p>
+                    We analyse your company, current website,
+                    infrastructure and goals.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="process-item">
+
+            <div class="process-number">
                 02
-            </span>
-            <div>
-                <h3>
-                    Design
-                </h3>
-                <p>
-                    We build the visual direction, structure
-                    and experience around your brand.
-                </p>
             </div>
-        </div>
-        <div class="process-item">
-            <span>
+
+            <div class="process-body">
+
+                <span>
+                    DESIGN
+                </span>
+
+                <h3>
+                    Shape the
+                    experience.
+                </h3>
+
+                <p>
+                    Visual identity, architecture and UX are
+                    designed around your audience.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="process-item">
+
+            <div class="process-number">
                 03
-            </span>
-            <div>
-                <h3>
-                    Build
-                </h3>
-                <p>
-                    Development, integrations, SEO,
-                    performance and technical setup.
-                </p>
             </div>
-        </div>
-        <div class="process-item">
-            <span>
+
+            <div class="process-body">
+
+                <span>
+                    BUILD
+                </span>
+
+                <h3>
+                    Engineer the
+                    foundation.
+                </h3>
+
+                <p>
+                    Development, SEO, integrations, security
+                    and infrastructure come together.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="process-item">
+
+            <div class="process-number">
                 04
-            </span>
-            <div>
-                <h3>
-                    Launch
-                </h3>
-                <p>
-                    Your system goes live with monitoring,
-                    backups and ongoing support available.
-                </p>
             </div>
-        </div>
+
+            <div class="process-body">
+
+                <span>
+                    LAUNCH
+                </span>
+
+                <h3>
+                    Put it
+                    online.
+                </h3>
+
+                <p>
+                    Launch, monitor, optimise and continue
+                    improving your digital system.
+                </p>
+
+            </div>
+
+        </article>
+
+
     </div>
+
 </section>
-<!-- =========================================
-     TESTIMONIAL
-========================================= -->
-<section class="testimonial">
-    <div class="quote-mark">
-        “
-    </div>
-    <blockquote>
-        A website should not only
-        represent your company.
-        It should move it forward.
-    </blockquote>
-    <div class="quote-footer">
-        <span>
-            CORESETUP STUDIO
-        </span>
-        <span>
-            BERLIN / GERMANY
-        </span>
-    </div>
-</section>
-<!-- =========================================
-     CONTACT
-========================================= -->
-<section id="contact" class="contact section">
-    <div class="contact-left">
+
+
+<!-- =====================================================
+     STATEMENT
+===================================================== -->
+
+<section class="statement">
+
+    <div class="statement-glow"></div>
+
+    <div class="statement-content">
+
         <span class="eyebrow">
-            05 — LET'S WORK TOGETHER
+            CORESETUP STUDIO / BERLIN
         </span>
-        <h2>
-            Ready to build
-            something
-            <em>better?</em>
-        </h2>
-        <p>
-            Tell us what you're working on.
-            We'll take a look at your current setup
-            and show you where the biggest opportunities are.
-        </p>
-        <a href="mailto:info@coresetup.studio"
-           class="email-link">
-            info@coresetup.studio
-            <span>↗</span>
-        </a>
+
+        <blockquote>
+
+            Don't just
+            <span>exist</span>
+            online.
+
+            <br>
+
+            Build something
+            <span>worth finding.</span>
+
+        </blockquote>
+
     </div>
-    <form class="contact-form">
-        <div class="form-group">
-            <label for="name">
-                NAME
-            </label>
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your name"
-                required
-            >
-        </div>
-        <div class="form-group">
-            <label for="email">
-                EMAIL
-            </label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="you@company.com"
-                required
-            >
-        </div>
-        <div class="form-group">
-            <label for="company">
-                COMPANY
-            </label>
-            <input
-                type="text"
-                id="company"
-                name="company"
-                placeholder="Company name"
-            >
-        </div>
-        <div class="form-group">
-            <label for="message">
-                PROJECT
-            </label>
-            <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Tell us briefly about your project..."
-                required
-            ></textarea>
-        </div>
-        <button type="submit" class="submit-button">
-            <span>
-                Request a free analysis
-            </span>
-            <span>
-                ↗
-            </span>
-        </button>
-        <div class="form-message"></div>
-    </form>
+
 </section>
-</main>
-<!-- =========================================
-     FOOTER
-========================================= -->
-<footer class="footer">
-    <div class="footer-top">
-        <a href="#" class="logo footer-logo">
-            <span class="logo-mark">
-                <span></span>
-                <span></span>
-            </span>
-            <span class="logo-text">
-                CORE<span>SETUP</span>
-            </span>
-        </a>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="contact section">
+
+    <div class="contact-intro">
+
+        <span class="eyebrow">
+            05 / START A PROJECT
+        </span>
+
+        <h2>
+
+            Let's build
+            something
+            <em>better.</em>
+
+        </h2>
+
         <p>
+
+            Tell us where you want to go.
+            We'll help you build the digital system
+            to get there.
+
+        </p>
+
+
+        <a href="mailto:info@coresetup.studio"
+           class="contact-email">
+
+            info@coresetup.studio
+
+            <span>↗</span>
+
+        </a>
+
+    </div>
+
+
+    <form class="contact-form">
+
+        <div class="form-row">
+
+            <label>
+
+                NAME
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <label>
+
+                EMAIL
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="you@company.com"
+                    required
+                >
+
+            </label>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <label>
+
+                COMPANY
+
+                <input
+                    type="text"
+                    name="company"
+                    placeholder="Company name"
+                >
+
+            </label>
+
+        </div>
+
+
+        <div class="form-row">
+
+            <label>
+
+                PROJECT
+
+                <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required
+                ></textarea>
+
+            </label>
+
+        </div>
+
+
+        <button type="submit"
+                class="submit-button">
+
+            <span>
+                Request project analysis
+            </span>
+
+            <b>
+                ↗
+            </b>
+
+        </button>
+
+
+        <div class="form-message"></div>
+
+    </form>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <a href="#top"
+           class="brand">
+
+            <div class="brand-symbol">
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand-name">
+                CORE<span>SETUP</span>
+            </div>
+
+        </a>
+
+
+        <div class="footer-statement">
+
             Digital systems.
             <br>
             Built to perform.
-        </p>
+
+        </div>
+
+
+        <div class="footer-location">
+
+            BERLIN
+            <br>
+            GERMANY
+
+        </div>
+
     </div>
+
+
     <div class="footer-bottom">
+
         <span>
             © 2026 CoreSetup Studio
         </span>
+
         <div>
+
             <a href="#">
                 Impressum
             </a>
+
             <a href="#">
                 Datenschutz
             </a>
+
         </div>
+
         <span>
-            BERLIN / DE
+            CORESETUP.STUDIO
         </span>
+
     </div>
+
 </footer>
+
+
+<!-- =====================================================
+     THREE.JS
+===================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
 <script src="script.js"></script>
+
 </body>
 </html>
